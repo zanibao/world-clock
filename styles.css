@@ -61,6 +61,26 @@ select {
     line-height: 48px;
 }
 
+button {
+    margin: 40px auto;
+    background: #f9f7fe;
+    border-color: #885EF1;
+    color: #885EF1;
+    padding: 10px 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    transition-duration: 0.4s;
+    background-color: #885EF1;
+    color: white;
+}
+
 footer {
     text-align: center;
     font-size: 16px;
